@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Western Heat and Eat - Premium Frozen Parathas. Taste the tradition, feel the warmth.">
+    <title>Western Heat and Eat | Home</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" type="image/png" href="assets/images/western_logo.png"> <!-- Provisional favicon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <a href="index.html" class="logo">
+            <img src="assets/images/western_logo.png" alt="Western Heat and Eat Logo">
+            <span>WESTERN <span style="color:var(--color-primary-dark)">HEAT&EAT</span></span>
+        </a>
+
+        <ul class="nav-links">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="product.html">Our Product</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero-section" id="home">
+        <div class="hero-content fade-in">
+            <h1>Taste the <br><span>Tradition</span></h1>
+            <p>Experience the authentic taste of premium frozen parathas, crafted with love and tradition. Ready to
+                heat, ready to eat.</p>
+            <a href="product.html" class="btn">Discover Our Parathas</a>
+        </div>
+        <div class="hero-image fade-in">
+            <!-- Image path will be updated after moving generated assets -->
+            <img src="Paratha.jpg" alt="Delicious Frozen Paratha">
+        </div>
+    </header>
+
+    <!-- Story Section -->
+    <section class="section story-section">
+        <div class="container">
+            <div class="story-grid">
+                <div class="story-text fade-in">
+                    <h2>Our Story</h2>
+                    <p>At Western Heat and Eat, our journey began with a simple passion: to bring the authentic,
+                        home-cooked taste of traditional parathas to the modern world without compromising on quality or
+                        flavor.</p>
+                    <p>Born from generations of family recipes, we realized that fast-paced lifestyles often meant
+                        sacrificing good food. We set out to change that. Our frozen parathas are not just food; they
+                        are a bridge between tradition and convenience.</p>
+                </div>
+                <div class="story-visual fade-in">
+                    <div class="visual-box">
+                        <img src="rest.png">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Mission Section -->
+    <section class="section mission-section">
+        <div class="container text-center">
+            <h2 class="fade-in">Our Mission</h2>
+            <div class="mission-cards">
+                <div class="card fade-in">
+                    <div class="icon">🌾</div>
+                    <h3>Quality Ingredients</h3>
+                    <p>We use only the finest wheat, pure ghee, and fresh locally sourced ingredients.</p>
+                </div>
+                <div class="card fade-in">
+                    <div class="icon">❤️</div>
+                    <h3>Authentic Taste</h3>
+                    <p>Preserving the traditional flaky texture and rich aroma in every bite.</p>
+                </div>
+                <div class="card fade-in">
+                    <div class="icon">🌍</div>
+                    <h3>Global Reach</h3>
+                    <p>Serving our warmth and deliciousness to customers across continents.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>About Us</h4>
+                    <p>Western Heat and Eat brings you authentic, premium frozen parathas made with love and tradition.
+                    </p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="product.html">Our Product</a></li>
+                        <li><a href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Us</h4>
+                    <p style="margin-bottom: 0.5rem;">+91 81123 78910</p>
+                    <p>westernheatneat@gmail.com</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Follow Us</h4>
+                    <div class="social-links">
+                        <a href="https://www.instagram.com/western_seekh_paratha/" target="_blank"><i
+                                class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/profile.php?id=100058535401259" target="_blank"><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a href="mailto:westernheatneat@gmail.com"><i class="fas fa-envelope"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Western Heat and Eat. All Rights Reserved.</p>
+                <p style="font-size: 0.8rem; margin-top: 0.5rem; opacity: 0.7;">*Created by ARK Media House*</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+
+    <!-- Inline Styles for specific page layouts if needed, kept minimal as main styles are in css file -->
+    <style>
+        .hero-section {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            min-height: 100vh;
+            padding: 80px 5% 0;
+            background: linear-gradient(135deg, #FDFBF7 0%, #FFF5E1 100%);
+            overflow: hidden;
+        }
+
+        .hero-content {
+            flex: 1;
+            padding-right: 2rem;
+            z-index: 2;
+        }
+
+        .hero-content h1 {
+            font-size: 4.5rem;
+            margin-bottom: 1.5rem;
+            color: var(--color-secondary);
+        }
+
+        .hero-content h1 span {
+            color: var(--color-primary);
+            font-style: italic;
+            /* Playful touch */
+        }
+
+        .hero-content p {
+            font-size: 1.2rem;
+            color: var(--color-text-light);
+            margin-bottom: 2.5rem;
+            max-width: 500px;
+        }
+
+        .hero-image {
+            flex: 1;
+            position: relative;
+        }
+
+        .hero-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 20px;
+            /* Soft edges */
+            box-shadow: 20px 20px 60px rgba(0, 0, 0, 0.1);
+            transform: rotate(-2deg);
+            /* Dynamic angle */
+            transition: transform 0.5s ease;
+        }
+
+        .hero-image:hover img {
+            transform: rotate(0deg) scale(1.02);
+        }
+
+        .story-section {
+            background-color: #fff;
+        }
+
+        .story-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 4rem;
+            align-items: center;
+        }
+
+        .story-text h2 {
+            margin-bottom: 1.5rem;
+            font-size: 2.5rem;
+        }
+
+        .story-text p {
+            margin-bottom: 1rem;
+            font-size: 1.1rem;
+            color: #555;
+        }
+
+        .story-visual {
+            background-color: var(--color-secondary);
+            height: 400px;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            position: relative;
+        }
+
+        .story-visual:before {
+            content: '';
+            position: absolute;
+            top: -20px;
+            right: -20px;
+            border: 5px solid var(--color-primary);
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            z-index: 0;
+        }
+
+        .visual-box {
+            z-index: 1;
+            text-align: center;
+        }
+
+        .visual-box h3 {
+            color: var(--color-accent);
+            font-size: 2.5rem;
+        }
+
+        .mission-section {
+            background-color: var(--color-background);
+        }
+
+        .mission-section h2 {
+            margin-bottom: 3rem;
+            font-size: 2.5rem;
+        }
+
+        .mission-cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+
+        .card {
+            background: white;
+            padding: 2.5rem;
+            border-radius: 15px;
+            box-shadow: var(--shadow-sm);
+            transition: var(--transition);
+        }
+
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: var(--shadow-md);
+        }
+
+        .card .icon {
+            font-size: 3rem;
+            margin-bottom: 1.5rem;
+        }
+
+        .card h3 {
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero-section {
+                flex-direction: column;
+                text-align: center;
+                padding-top: 120px;
+                /* Space for fixed nav */
+            }
+
+            .hero-content {
+                padding-right: 0;
+                margin-bottom: 3rem;
+            }
+
+            .hero-content h1 {
+                font-size: 3rem;
+            }
+
+            .hero-content p {
+                margin: 0 auto 2rem;
+            }
+
+            .story-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</body>
+
+</html>
