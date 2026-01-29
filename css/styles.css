@@ -236,6 +236,18 @@ ul {
     .navbar {
         padding: var(--spacing-sm) var(--spacing-md);
     }
+
+    /* Fix gapping and header overlap on mobile */
+    .section {
+        padding: 3rem 0;
+        /* Reduced from 8rem to manage gapping */
+    }
+
+    .page-header.section {
+        padding-top: 130px;
+        /* Ensure content clears the fixed navbar */
+        padding-bottom: 2rem;
+    }
 }
 
 /* Animations */
